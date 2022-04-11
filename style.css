@@ -9,8 +9,8 @@ body {
 }
 .pricing {
   width: 80%;
-  /* display: flex; */
   margin: 3rem auto;
+  box-shadow: 0 4px 15px hsl(233, 9%, 81%);
 }
 
 /* ======== start of first card ====== */
@@ -33,7 +33,7 @@ body {
 }
 
 .pricing .first p {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: hsl(218, 22%, 67%);
   line-height: 1.5rem;
 }
@@ -105,4 +105,60 @@ body {
 
 .pricing .third ul li {
   margin-bottom: 0.3rem;
+}
+/* ======== end of third card ======== */
+
+/* ======== media queries ========== */
+@media screen and (min-width: 430px) {
+  .pricing {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .pricing {
+    width: 80%;
+  }
+  html {
+    font-size: 17px;
+  }
+  .pricing {
+    margin-top: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pricing .first {
+    flex-grow: 1;
+  }
+
+  .pricing .second {
+    width: 50%;
+    flex-grow: 1;
+    border-radius: 0 0 0 5px;
+  }
+
+  .pricing .third {
+    width: 50%;
+    flex-grow: 1;
+    border-radius: 0 0 5px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+  .pricing {
+    width: 60%;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+  .pricing {
+    margin-top: 6rem;
+    width: 50%;
+  }
 }
