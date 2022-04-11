@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+.pricing {
+  width: 80%;
+  /* display: flex; */
+  margin: 3rem auto;
+}
+
+/* ======== start of first card ====== */
+.pricing .first {
+  background-color: white;
+  padding: 1.8rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.pricing .first h2 {
+  font-size: 1.2rem;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.pricing .first h3 {
+  font-size: 0.9rem;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+
+.pricing .first p {
+  font-size: 0.75rem;
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
+}
+/* ======== end of first card ====== */
+/* ======== start of second card ====== */
+.pricing .second {
+  padding: 1.8rem;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.pricing .second h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.pricing .second h3 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.pricing .second h3 span {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.pricing .second p {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing .second a {
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  padding: 0.8rem 0;
+  border-radius: 5px;
+}
+/* ======== end of second card ====== */
+/* ======== start of third card ====== */
+.pricing .third {
+  padding: 1.8rem;
+  color: white;
+  background-color: hsl(179, 47%, 52%);
+  border-radius: 0 0 5px 5px;
+}
+
+.pricing .third h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.pricing .third ul {
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.pricing .third ul li {
+  margin-bottom: 0.3rem;
+}
